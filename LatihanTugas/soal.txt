@@ -1,0 +1,27 @@
+Berikut adalah beberapa soal pemrograman dasar JavaScript yang meliputi variabel, tipe data, operator aritmatika, operator perbandingan, operator logika, dan fungsi:
+
+1. Variabel dan Tipe Data
+   - Buatlah sebuah variabel untuk menyimpan nama, umur, dan status keanggotaan seseorang (misalnya "aktif" atau "tidak aktif"). Tampilkan variabel tersebut di console.
+
+2. Operator Aritmatika
+   - Buatlah sebuah program yang menghitung luas persegi panjang. Buat variabel `panjang` dan `lebar`, kemudian hitung luasnya dengan operator aritmatika dan simpan hasilnya ke dalam variabel `luas`, lalu tampilkan hasilnya di console.
+
+3. Operator Perbandingan
+   - Buatlah sebuah variabel `nilai` dan beri nilai angka antara 1 hingga 100. Buat program yang menampilkan pesan "Lulus" jika nilai lebih dari atau sama dengan 60, dan "Tidak Lulus" jika nilai kurang dari 60.
+
+4. Operator Logika
+   - Buatlah program yang menerima dua variabel `x` dan `y`, lalu tentukan apakah keduanya memiliki nilai yang lebih dari 50. Jika ya, tampilkan "Keduanya lebih dari 50", jika tidak, tampilkan "Salah satu atau keduanya kurang dari atau sama dengan 50".
+
+5. Fungsi Dasar
+   - Buatlah sebuah fungsi bernama `hitungKelilingLingkaran` yang menerima satu parameter yaitu `radius`. Fungsi ini harus mengembalikan keliling lingkaran yang dihitung menggunakan rumus keliling lingkaran \(2 \times \pi \times \text{radius}\). Tampilkan hasilnya dengan memanggil fungsi tersebut.
+
+6. Fungsi dengan Kondisi
+   - Buat fungsi bernama `cekTahunKabisat` yang menerima satu parameter `tahun`. Fungsi ini harus memeriksa apakah tahun tersebut merupakan tahun kabisat atau bukan. Jika tahun habis dibagi 4 tetapi tidak habis dibagi 100, atau habis dibagi 400, maka tahun tersebut adalah tahun kabisat. Kembalikan `true` jika kabisat dan `false` jika bukan.
+
+7. Kombinasi Operator Aritmatika dan Logika
+   - Buat variabel `a`, `b`, dan `c` dengan nilai angka berbeda-beda. Buat program yang memeriksa apakah `a` adalah angka terbesar di antara ketiganya. Jika benar, tampilkan "a adalah angka terbesar", jika salah tampilkan "a bukan angka terbesar". 
+
+8. Operator Assignment
+   - Buatlah variabel `total` dan beri nilai awal 100. Kemudian, tambahkan 50 ke dalam variabel tersebut menggunakan operator assignment, lalu kurangkan 30, kalikan dengan 2, dan terakhir bagi dengan 4. Tampilkan hasil akhir dari variabel `total` di console.
+
+Selamat mencoba, dan jika membutuhkan bantuan, jangan ragu untuk meminta jawaban atau penjelasan!
