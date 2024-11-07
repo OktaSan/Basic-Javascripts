@@ -1,0 +1,38 @@
+### Studi Kasus: Manajemen Buku Perpustakaan
+
+Anda sedang membangun sistem sederhana untuk mengelola koleksi buku di perpustakaan. Sistem ini harus memungkinkan perpustakaan untuk menambah, mencari, dan mengelola status buku yang tersedia.
+
+1. **Struktur Data**:
+   - Setiap buku direpresentasikan sebagai objek dengan properti:
+     - `judul`: judul buku (string)
+     - `pengarang`: nama pengarang buku (string)
+     - `tahunTerbit`: tahun terbit buku (number)
+     - `status`: status ketersediaan (boolean) - `true` berarti tersedia, `false` berarti dipinjam
+
+2. **Koleksi Buku**:
+   - Koleksi buku disimpan dalam sebuah array bernama `koleksiBuku`.
+
+3. **Fungsi yang Dibutuhkan**:
+   - **Tambah Buku**: Fungsi untuk menambah buku baru ke dalam `koleksiBuku`. Fungsi ini menerima parameter untuk judul, pengarang, dan tahun terbit, lalu menambahkan objek buku ke dalam array.
+   - **Cari Buku**: Fungsi untuk mencari buku berdasarkan judul atau pengarang. Fungsi ini menerima string pencarian dan mengembalikan array buku yang cocok dengan kriteria pencarian.
+   - **Tandai Buku Dipinjam**: Fungsi untuk mengubah status buku menjadi dipinjam (status `false`). Fungsi ini menerima judul buku dan mengubah status ketersediaan menjadi `false`.
+   - **Tandai Buku Dikembalikan**: Fungsi untuk mengubah status buku menjadi tersedia (status `true`). Fungsi ini menerima judul buku dan mengubah status ketersediaan menjadi `true`.
+
+4. **Contoh Koleksi Buku Awal**:
+   ```javascript
+   let koleksiBuku = [
+     { judul: 'JavaScript Dasar', pengarang: 'Andi', tahunTerbit: 2015, status: true },
+     { judul: 'Belajar React', pengarang: 'Budi', tahunTerbit: 2018, status: true },
+     { judul: 'Pemrograman Web', pengarang: 'Cici', tahunTerbit: 2020, status: true }
+   ];
+   ```
+
+5. **Output yang Diharapkan**:
+   - Setelah menambah buku baru, buku tersebut muncul di `koleksiBuku`.
+   - Saat mencari buku dengan kata kunci, fungsi mengembalikan daftar buku yang sesuai.
+   - Jika buku ditandai sebagai dipinjam, maka status buku menjadi `false`.
+   - Jika buku dikembalikan, status buku menjadi `true`.
+
+--- 
+
+Selamat mencoba mengimplementasikan studi kasus ini!
