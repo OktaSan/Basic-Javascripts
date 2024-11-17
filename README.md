@@ -1,16 +1,36 @@
-# Basic JavaScript
+# JavaScript Basic Learning Repository
 
-Welcome to the **Basic JavaScript** repository! This repository contains a collection of JavaScript examples, exercises, and fundamental concepts intended for beginners and anyone looking to strengthen their understanding of core JavaScript.
+Selamat datang di repository **JavaScript Basic Learning**! Repository ini dibuat sebagai dokumentasi pribadi untuk mempelajari dasar-dasar JavaScript. Di sini, Anda akan menemukan berbagai contoh kode, catatan, dan latihan yang dirancang untuk membantu pemahaman tentang konsep fundamental dalam JavaScript.
 
-## 📖 About
+## 📚 Daftar Isi
 
-This repository serves as a guide and reference for basic JavaScript topics. It includes examples, practice files, and explanations of common JavaScript concepts. The aim is to help you build a strong foundation in JavaScript, whether you're new to programming or revisiting the basics.
+- [Pendahuluan](#pendahuluan)
+- [Struktur Folder](#struktur-folder)
+- [Topik yang Dibahas](#topik-yang-dibahas)
+- [Cara Menggunakan](#cara-menggunakan)
 
-## ✨ Features
+## ✨ Pendahuluan
 
-- **Fundamentals of JavaScript**: Syntax, variables, data types, operators, conditionals, and loops.
-- **Functions**: Understanding functions, scope, and closures.
-- **DOM Manipulation**: Interacting with the Document Object Model.
-- **Events**: Event handling and interaction.
-- **Array and Object Manipulation**: Working with arrays, objects, and common methods.
-- **Error Handling**: Basics of try-catch and error handling in JavaScript.
+JavaScript adalah salah satu bahasa pemrograman paling populer di dunia, yang digunakan untuk membangun aplikasi web interaktif, baik di sisi client maupun server. Tujuan dari repository ini adalah untuk mengorganisir semua materi pembelajaran JavaScript dasar dalam satu tempat.
+
+## 🗂 Struktur Folder & Topic Yang Dibahas
+
+- `01. Internal Javascripts/` : Membahas tentang menggunakan JS langsung didalam code HTML.
+- `02-Eksternal Javascripts/` : Penjelasan tentang Memisahkan antara file JS dan HTML.
+- `03-Variabels/` : Terdapat 2 variabel yang akan dibahas (`let` & `const`).
+- `04-Tipe Data/` : Penggunaan tipe data seperti `string`, `interger`, `boolean`, `undefine`, dan `null`.
+- `05- Operator Aritmatika/` : Penggunaan operator seperti `aritmatika` dan `assigment`.
+- `06- Operator Perbanding/` : Penggunaan operator seperti `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`.
+- `07- Operator Logika/` : Penggunaan operator seperti `&&`, `||`, `!`.
+- `08- Functions/` : Membahas penulisan function `function hoisting`, `function`, `local global`.
+- `09- Object/` : Cara deklar `object` dan `object method`.
+- `10- Array/` : Dasar-dasar objek dan array di JavaScript.
+- `11- Object Math/` : Object yang bertujuan untuk menangani operasi matematika.
+- `12- Pengondisian/` : Membahas mengenai `if`, `elseif`, `else`, `switch Case`.
+- `13- Looping/` : Perulangan ini akan membahas bagaimana mereka bekerja.
+
+## 🚀 Cara Menggunakan
+
+1. Clone repository ini:
+   ```bash
+   git clone https://github.com/username/javascript-basic-learning.git
