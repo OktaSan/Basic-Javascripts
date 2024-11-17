@@ -1,7 +1,7 @@
 # Variabel dalam JavaScript
 
 ## Pendahuluan
-Variabel adalah tempat untuk menyimpan data yang dapat digunakan dan dimodifikasi selama program berjalan. JavaScript menyediakan beberapa cara untuk mendeklarasikan variabel, yaitu menggunakan `var`, `let`, dan `const`.
+Variabel adalah tempat untuk menyimpan data yang dapat digunakan dan dimodifikasi selama program berjalan. JavaScript menyediakan beberapa cara untuk mendeklarasikan variabel, yaitu menggunakan `let` dan `const`.
 
 ## Isi File
 Di dalam file ini, Anda akan mempelajari:
